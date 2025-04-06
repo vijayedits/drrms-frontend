@@ -1,0 +1,110 @@
+/* Login.css */
+
+body, html, #root {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .page {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom right, #dcefff, #ffffff);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-container {
+    text-align: center;
+    max-width: 500px;
+    width: 100%;
+    padding: 2rem;
+  }
+  
+  .title-banner h1 {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #205072;
+    margin-bottom: 0.3rem;
+  }
+  
+  .subtitle {
+    font-size: 1rem;
+    color: #4c789a;
+    margin-bottom: 2rem;
+  }
+  
+  .login-card {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .login-title {
+    margin-bottom: 1.5rem;
+    color: #205072;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 14px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2a6f97;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1d577b;
+  }
+  
+  .role-select {
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .role-select label {
+    font-weight: bold;
+    color: #003049;
+  }
+  
+  .role-select select {
+    padding: 6px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background-color: white;
+  }
+  
